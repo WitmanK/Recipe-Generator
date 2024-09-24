@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  height: 100vh;
+}
+
+.container {
+  margin: 60px auto;
+  padding: 30px 20px;
+  max-width: 600px;
+}
+header {
+  font-size: 52px;
+  max-width: 600px;
+  text-align: center;
+}
+.searchBar {
+  border-radius: 20px;
+  border: solid 2px;
+  padding: 10px 15px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  width: 400px;
+}
+.submitBar {
+  border-radius: 20px;
+  border: solid 2px;
+  padding: 8px 20px;
+  font-size: 20px;
+  font-family: "Jost", sans-serif;
+  width: 120px;
+}
+form {
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  text-align: center;
+}
+.recipe-paragraph {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+footer {
+  text-align: center;
+}

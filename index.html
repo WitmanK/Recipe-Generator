@@ -5,17 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Generator</title>
     <link rel="stylesheet" href="scr/stlye.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>What are you hungry for?</header>
-    <form>
-      <input type="text" placeholder="Tell me what's your favorite dish?" />
-      <input type="submit" />
-    </form>
+    <div class="container">
+      <header>Are you hungry?</header>
 
-    <div class="recipe-heading"></div>
+      <form>
+        <input
+          type="text"
+          placeholder="Tell me what's your favorite dish?"
+          class="searchBar"
+        />
+        <input type="submit" class="submitBar" />
+      </form>
 
-    <div class="recipe-paragraph"></div>
+      <div class="recipe-paragraph">
+        -ingredient
+        <br />-ingredient <br />-ingredient <br />-ingredient<br />
+        -ingredient
+      </div>
+    </div>
     <footer>
       This AI project was coded by Klaudia Witman and its
       <a href="https://github.com/WitmanK/Recipe-Generator"

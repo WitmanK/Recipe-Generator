@@ -45,6 +45,9 @@ form {
   padding: 10px 20px;
   border-radius: 30px;
 }
+.recipe-paragraph strong {
+  color: pink;
+}
 footer {
   text-align: center;
 }

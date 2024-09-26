@@ -31,6 +31,7 @@ header {
   font-size: 20px;
   font-family: "Jost", sans-serif;
   width: 120px;
+  background-color: #ecd3bd;
 }
 form {
   background-color: white;
@@ -39,14 +40,31 @@ form {
   border-radius: 30px;
   text-align: center;
 }
-.recipe-paragraph {
+.hint {
+  text-align: left;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+.recipeParagraph {
   background-color: white;
 
   padding: 10px 20px;
   border-radius: 30px;
 }
+.hidden {
+  display: none;
+}
 .recipe-paragraph strong {
   color: pink;
+}
+
+.generating {
+  animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 footer {
   text-align: center;

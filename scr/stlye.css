@@ -2,7 +2,7 @@ body {
   background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   margin: 0;
   font-family: "Jost", sans-serif;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
@@ -47,17 +47,32 @@ form {
 }
 .recipeParagraph {
   background-color: white;
-
   padding: 10px 20px;
   border-radius: 30px;
 }
 .hidden {
   display: none;
 }
-.recipe-paragraph strong {
-  color: pink;
-}
 
+.recipeParagraph strong {
+  color: orange;
+}
+#recipeGenerator {
+  font-family: "Jost", sans-serif;
+  color: pink;
+  line-height: 0;
+  font-size: 5px;
+}
+#recipe-paragraph h1 {
+  color: orange;
+  font-size: 40px;
+  text-align: center;
+}
+#recipe-paragraph h2 {
+  color: pink;
+  padding-bottom: 0px;
+  word-spacing: 0px;
+}
 .generating {
   animation: blinker 2s linear infinite;
 }
